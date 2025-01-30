@@ -1,0 +1,45 @@
+Automation framework is Where we organize automation project files/folders in structured manner.
+
+Files like Testcases, Page Object Classes, Properties file, Utility files, test data files, reports files, XML files, screenshots. To organize the file in a structured manner we need an automation framework.
+
+Objectives: -
+1) Re-Usubility
+2) Maintanability
+3) Readability
+
+Types of Framework: -
+1) Built-In
+		Ex- TestNG, JUnit, Cucumber, Robot etc.
+		
+2) Customized(User Defined)
+		Ex- Modular Framework, Data Driven, Keyword Driven, Hybride Driven etc.
+
+Phases/Stages
+-------------
+1) Analysing the AUT
+
+		- Findout the number of pages
+		- What are all elements and What type of elements i.e., Customized or Built-In
+		- What to automate / What we can not automate
+		
+2) Choose testcases for automation
+		
+		If we have 100 TCs with the AUT, the it's not possible to automate the entire project.
+		And if we have 90 Automatable TCs and 10 Not Automatable TCs, then It's possible to achieve 100% automation for only automatable TCs.
+		Also we have to prioritize our TCs.
+			1) Sanity Cases - P1
+			2) Data Driver TCs/Retest - P2
+			3) Regression TCs - P3
+			4) Any other cases - P4
+		
+3) Design and Development of Framework
+
+4) Execution - 
+		
+		Local, Remotely
+
+5) Maintenance
+
+		- Local Repositary
+		- Global/Remote Repositary
+		
